@@ -1,0 +1,466 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: contain;
+}
+
+.menu{
+    position: relative;
+    box-shadow: 0px 15px 10px rgba(3, 3, 20, 0.219);
+    background-image: url("../img/home/menu.jpg");
+}
+
+#menu{
+    margin: 0; padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#menu li {
+    display: inline-flex;
+}
+
+#logo-menu {
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.333);
+    position: relative;
+    top: 15px; left: 45px;
+}
+
+#menu-links{
+    margin-left: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.btn-links {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    transition: 0.5s;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #fffdd9;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: #000;
+}
+
+.btn-links:hover {
+    color: #fff;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: #000;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
+#login {
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: 30px; right: 45px;
+}
+
+.carrossel{
+    width: 100%;
+}
+
+#carrossel{
+    margin: 0; padding: 0;
+
+}
+
+#detail{
+    background-color: #000000bb;
+    text-align: center;
+}
+
+#detail span{
+    color: #fffdd9;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: #000;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    cursor: default;
+
+}
+
+#img-categorias{
+    width: 100%;
+    box-shadow: 0 8px 8px rgba(114, 114, 114, 0.666);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#img-categorias:hover{
+    padding: 0 1.5% 0 1.5%;
+    transition: 0.5s;
+}
+
+#img-categorias{
+    box-shadow: 0 8px 8px rgba(114, 114, 114, 0.666);
+}
+
+#txt-categorias a{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: #fffdd9;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: #000;
+    text-decoration: none;
+    border-radius: 45%;
+
+}
+
+#txt-categorias a:hover{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: #ffffff;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: #000;
+    text-decoration: none;
+    border-radius: 45%;
+    
+}
+
+/*Tamanho e espaçamento entre categorias*/
+@media (max-width:575px){
+
+    #img-categorias{
+        width: 50%;
+        height: 350px;
+        display: block;
+        margin: 0 auto 0 auto;
+        
+    }
+
+    .area-categoria{
+        padding-bottom: 50px;
+        display: block;
+        text-align: center;
+        
+    }
+}
+
+.rodape {
+    background-color: #333;
+    padding: 70px 0 25px 0;
+}
+
+#txt-rodape-left{
+    color:white;
+    text-align: center;
+    margin-top: auto;
+}
+
+#txt-rodape-right, #txt-rodape-right a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#txt-rodape-right a:hover{
+    color: #fffdd9;
+
+}
+
+#social-rodape{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 8.5px;
+    bottom: 3px;
+}
+
+.display-rodape{
+    display: flex;
+}
+
+@media (max-width:450px){
+
+    .display-rodape{
+        display: block;
+    }
+
+}
+
+/*PÁGINA DE ROUPAS*/
+
+.busca{
+    margin-bottom: 130px;
+}
+
+.area-busca {
+    display: inline-flex;
+    width: 75%;
+    padding: 10px 0 10px 10px;
+    margin: 50px 0 0 auto;
+    border-radius: 10px;
+    border-color: #243B41;
+}
+
+
+.btn-busca {
+    padding: 13px 10px 13px 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border-color: #243B41;
+}
+
+.btn-busca:hover {
+    color: #fff;
+    background-color: #01010fec;
+}
+
+.roupas{
+    margin-bottom: 150px;
+    padding: 0;
+    display: block;
+}
+
+.box{
+    background-image: url(../img/home/menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.247);
+    border-radius: 5%;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.333);
+    text-align: center;
+}
+
+.roupas .row{
+    margin-bottom: 100px;
+}
+
+.descricao-roupas{
+    width: 100%;
+    height: 200px;
+}
+
+#img-roupa{
+    width: 100%;
+    height: 250px;
+    padding: 12px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#img-roupa-indisponivel{
+    width: 100%;
+    height: 250px;
+    padding: 12px;
+    border-radius: 10%;
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+#img-roupa:hover{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nome-roupa{
+    color: #fffdd9;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 10px;
+}
+
+.valor{
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.indisponivel{
+    color: rgb(192, 192, 192);
+    padding-bottom: 15px;
+}
+
+.btn-posicao{
+    margin-top: auto;
+}
+
+#btn-locacao{
+    width: 80%;
+    color: black;
+    background-color: #fffdd9;
+    text-align: center;
+    font-family: Consolas;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#btn-locacao-indisponivel{
+    width: 80%;
+    color: black;
+    background-color: #fffdd9;
+    text-align: center;
+    font-family: Consolas;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+#btn-locacao:hover{
+    width: 90%;
+    transition: 0.5s;
+}
+
+.nav-pages{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#btn-pages{
+    color: #fffdd9;
+    background-color: gray;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+    text-decoration: none;
+    border: 1.5px solid #fffdd9;
+    padding: 3px;
+    margin: 0 5px 0 5px;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+#num-pages{
+    color: #fffdd9;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+    text-decoration: none;
+    padding: 3px 0 3px 0;
+    margin: 0 5px 0 5px;
+    border-radius: 10px;
+}
+
+@media (max-width:1000px){
+
+    .roupas .row{
+        display: block;
+        margin: 0;
+    }
+
+    .box{
+        width: 50%;
+        margin: 0 auto 30px auto;
+    }
+
+}
+
+/*LOJAS*/
+
+.local{
+    text-align: center;
+    margin: 50px 0 50px 0;
+    background-image: url(../img/lojas/backmap.jpg);
+    background-size: contain;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+#img-loja{
+    width: auto;
+    height: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+.endereco-loja{
+    background-color: #000000bb;
+    color: #fffdd9;
+    margin-bottom: 50px;
+}
+
+.back-map {
+    background-color: #000000bb;
+    margin-bottom: 50px;
+    padding: 15px 0 15px 0;
+}
+
+/*REGRAS*/
+
+.titulo-regras{
+    background-color: #000000bb;
+    color: #fffdd9;
+    margin: 50px 0 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+#sub-titulo-regras{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.linha-regras{
+    margin-bottom: 50px;
+}
+
+.txt-regras{
+    padding: 0 50px 0 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.445); border-right: 1px solid rgba(0, 0, 0, 0.445);
+}
+
+.formas-pagamento{
+    background-color: #000000bb;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.img-forma-pagamento{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 5px 0 5px;
+}
+
+/*SOBRE*/
+
+.col-img{
+    padding: 0;
+}
+
+#img-sobre{
+    max-width: 100%;
+    height: auto;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.445);
+    padding: 0;
+}
+
+.txt-sobre{
+    color: #fffdd9;
+    background-color: #000000bb;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.445);
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.vantagens{
+    color: rgb(23, 58, 7);
+    background-color: #fffdd99f;
+    margin: 50px 0 50px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media(max-width: 990px){
+    .vantagem-area{
+        margin-bottom: 50px;
+    }
+}
+
+.gif-build{
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
